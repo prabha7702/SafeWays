@@ -19,7 +19,7 @@ function SignupScreen() {
                     <Input placeholder='CONFIRM PASSWORD' icon={require('../assets/icons/solar_lock-password-outline.png')} secureTextEntry/>
                 </View>
                 <View style={styles.buttonContainer}>
-                    <Button style={styles.button} textStyle={{ color: '#ffffff' }} title="Sign Up" handlePress={() => Navigation.navigate('signup' as never)}></Button>
+                    <Button style={styles.button} textStyle={{ color: '#ffffff' }} title="Sign Up" handlePress={() => Navigation.navigate('home' as never)}></Button>
                     <View style={styles.textContainer}>
                         <Text style={{ color: '#ffffff' }}>Already have an account?</Text>
                         <TouchableOpacity><Text style={{ color: '#ffffff', fontWeight: 500 }} onPress={() => Navigation.navigate('signin' as never)}>Sign In</Text></TouchableOpacity>

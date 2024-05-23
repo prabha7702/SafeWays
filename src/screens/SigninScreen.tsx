@@ -17,7 +17,7 @@ function SigninScreen() {
                     <Input placeholder='PASSWORD' icon={require('../assets/icons/solar_lock-password-outline.png')} secureTextEntry/>
                     <TouchableOpacity style={styles.forgot}><Text style={{ color: '#ffffff', fontWeight: 500 }} onPress={() => Navigation.navigate('signup' as never)}>Forget Password?</Text></TouchableOpacity>
                 </View>
-                <Button style={styles.button} textStyle={{ color: '#ffffff' }} title="Sign In" handlePress={() => Navigation.navigate('signup' as never)}></Button>
+                <Button style={styles.button} textStyle={{ color: '#ffffff' }} title="Sign In" handlePress={() => Navigation.navigate('home' as never)}></Button>
                 <Text style={{ color: '#ffffff' }}>Start Your Daily Commute Safe & Secure</Text>
             </View>
         </View>
